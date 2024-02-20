@@ -1,0 +1,46 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   justify-content: center;
+   position: absolute;
+   margin-top: 200px;
+   border-radius: 20px;
+   
+}
+/* Adding background image for whole body */
+
+body{
+   background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210902/pngtree-real-shot-using-keyboard-typing-business-office-image_786511.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+#heading{
+    color:transparent;
+    font-size:50px;
+    font-weight: bolder;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/006/459/053/small/minimalist-abstract-purple-gradient-background-shape-with-light-effect-for-text-and-message-artwork-design-vector.jpg");
+    background-size: contain;
+    background-clip: text;    
+}
+
+#para{
+   color: rgb(255, 255, 255);
+   background-color: rgba(0, 3, 4, 0.361);
+}
+
+.img{
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        background-image: url("https://1.bp.blogspot.com/-ah3S1kFo6EQ/XyTlSa4V_lI/AAAAAAAAZD8/Ep84AY3SAxkELJAs8Pf3FCiqRsMi8HLLQCLcBGAsYHQ/d/GRADIENT-PHONE-WALLPAPER-HD-v2.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}
